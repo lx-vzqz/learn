@@ -85,3 +85,38 @@ footer {
     text-align: center;
   }
 }
+
+.profile-card {
+  background-color: #fff;
+  padding: 2em;
+  max-width: 300px;
+  margin: 2em auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.profile-card h2 {
+  margin: 0.3em 0;
+  color: #333;
+}
+
+.rol {
+  font-weight: bold;
+  color: #666;
+}
+
+.ubicacion,
+.email {
+  font-size: 0.9em;
+  color: #888;
+}
